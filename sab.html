@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type ="text/css" href="sab.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+    <script src="sabdatagenerator.js"></script>
+    <title>Learn English</title>
+</head>
+<body>
+    <div class ="Homepage">
+        <label class = "logo">Learn English</label>
+        <a class = "Homepage2" href="sab2.html">About Us</a>
+        <a class = "Homepage2" href="#Levels">Levels</a>
+        <a class = "Homepage2" href="#Stories">Stories</a>
+    </div>
+    <div class ="container">
+        <p id='para'>Test you level in English by taking a Quiz</p>
+        <button id="start">Get Started</button>
+    </div>
+    <div class ="container1">
+        <h3>Choose the best word to complete the sentence.</h3>
+        <p id="question1">1. The baby boy saw ... in the mirror and started to cry.</p>
+        <button data-id="1" class="answer">a. itself</button>
+        <button data-id="2" class="answer">b. herself</button>
+        <button data-id="3" class="answer">c. himself</button><br><br>
+            
+    </div>
+    
+    <div class ="container2">
+        <h3>Choose the best word to complete the sentence.</h3>
+        <p id="question2">2. A lot of trains ... late today due to the heavy storms.</p>
+        <button data-id="1" class="answer">a. are run</button>
+        <button data-id="2" class="answer">b. run</button>
+        <button data-id="3" class="answer">c. are running</button><br><br>
+    </div>
+
+    <div class ="container3">
+        <h3>Choose the best word to complete the sentence.</h3>
+        <p id="question3">3. ... was a strong wind last night.</p>
+        <button  data-id="1" class="answer">a. There</button>
+        <button  data-id="2" class="answer">b. Here</button>
+        <button  data-id="3" class="answer">c. This</button><br><br>
+    </div>
+    <div class="completed">
+        <h1 id="score">Your level is :</h1>
+        <p class="level">beginner to pre-intermediate</p>
+        <p class="level">pre-intermediate to intermediate</p>
+        <p class="level">intermediate to advanced</p>
+        <p class="level">advanced</p>
+    </div>
+    <script src="sab.js"></script>  
+    <script src="main.js"></script>
+</body>
+</html>
